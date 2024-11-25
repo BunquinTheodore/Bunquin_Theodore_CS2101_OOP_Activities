@@ -7,6 +7,6 @@ public class Main {
         Shape[] shapes = {square, rectangle, triangle};
 
         ShapeCollection collection = new ShapeCollection(shapes);
-        collection.printShapeSummary();
+        collection.getPropertyValues();
     }
 }

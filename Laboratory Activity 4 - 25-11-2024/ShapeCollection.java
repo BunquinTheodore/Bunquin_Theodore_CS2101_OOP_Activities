@@ -5,7 +5,7 @@ public class ShapeCollection {
         this.shapes = shapes;
     }
     
-    public void printShapeSummary() {
+    public void getPropertyValues() {
         for (Shape shape : shapes) {
             System.out.println(shape.getShapeType());
             System.out.println(String.format("Area: %.2f", shape.getArea()));
